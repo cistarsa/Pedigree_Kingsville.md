@@ -44,3 +44,9 @@ for j in `cat /project/cotton_genomics/18175Met_N20062/sortu_samps18175Met.list`
 (base) bash-5.1$ makeblastdb -in Agragra_HiC_scaffold_no_mt.fasta -dbtype nucl -parse_seqids -out Agragra_hic_noMt
 
 blastn -query Agragra_HiC_scaffold_no_mt.fasta -db nt -outfmt '6 qseqid staxids bitscore std' -max_target_seqs 10 -max_hsps 1 -evalue 1e-25
+
+## July 17, 2023:
+preprocess running for first mapping at /90daydata/aggrandis_genome/Clean_AggAgt/preprocess
+449/507
+
+##
